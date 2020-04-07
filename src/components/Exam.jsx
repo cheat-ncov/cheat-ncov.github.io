@@ -94,7 +94,7 @@ export default class Exam extends Component {
 		}
 		if (error != null) {
 			return (
-				<h1>Error</h1>
+			<h1>Error: {error}</h1>
 			)
 		}
 		return (
